@@ -205,7 +205,7 @@ gulp.task('imagemin', function() {
       svgoPlugins: [{removeViewBox: false}],
       use: [pngquant()]
     }))
-    .pipe(gulp.dest(bases.dist + 'img'));
+    .pipe(gulp.dest(bases.dist + '/img'));
 });
 
 gulp.task('sassdoc', function () {

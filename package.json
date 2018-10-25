@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/JuliaRietveld/elemento.git"
   },
-  "homepage": "https://github.com/JuliaRietveld/elemento",
+  "homepage": "https://juliarietveld.github.io/elemento/",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },

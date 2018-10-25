@@ -25,19 +25,19 @@
 }
 .benefits .flex-container .people .img {
   width: 86px; height: 63px;
-  background: url('/img/css_sprites.png') -178px -230px;
+  background: url('https://juliarietveld.github.io/elemento/img/css_sprites.png') -178px -230px;
 }
 .benefits .flex-container .library .img {
   width: 65px; height: 57px;
-  background: url('/img/css_sprites.png') -284px -230px;
+  background: url('https://juliarietveld.github.io/elemento/img/css_sprites.png') -284px -230px;
 }
 .benefits .flex-container .community .img {
   width: 70px; height: 70px;
-  background: url('/img/css_sprites.png') -283px -398px;
+  background: url('https://juliarietveld.github.io/elemento/img/css_sprites.png') -283px -398px;
 }
 .benefits .flex-container .saving .img {
   width: 70px; height: 69px;
-  background: url('/img/css_sprites.png') -373px -398px;
+  background: url('https://juliarietveld.github.io/elemento/img/css_sprites.png') -373px -398px;
 }
 
 @media screen and (min-width: 35em) {
@@ -59,7 +59,7 @@
   list-style-type: none;
 }
 .benefits2 .usp {
-  list-style-image: url('/img/icon-check.svg');
+  list-style-image: url('https://juliarietveld.github.io/elemento/img/icon-check.svg');
   //width: 22px; height: 22px;
   //background: url('/img/css_sprites.png') -369px -230px;
 }
@@ -76,7 +76,7 @@
   }
   .benefits2 .image {
     flex: 1;
-    background-image: url("/img/girl-computer.png");
+    background-image: url("https://juliarietveld.github.io/elemento/img/girl-computer.png");
     background-size: contain;
     height: 530px;
   }

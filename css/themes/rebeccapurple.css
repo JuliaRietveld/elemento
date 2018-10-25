@@ -413,7 +413,7 @@ nav a:hover {
 }
 
 .hero {
-  background-image: url("/img/img.png");
+  background-image: url("https://juliarietveld.github.io/elemento/img/img.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-color: #35c5bb;
@@ -528,19 +528,19 @@ nav a:hover {
 .boy {
   width: 221px;
   height: 200px;
-  background: url("/img/css_sprites.png") -10px -10px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -10px -10px;
 }
 
 .girl {
   width: 221px;
   height: 192px;
-  background: url("/img/css_sprites.png") -251px -10px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -251px -10px;
 }
 
 .connection {
   width: 148px;
   height: 148px;
-  background: url("/img/css_sprites.png") -10px -230px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -10px -230px;
 }
 
 @media screen and (min-width: 35em) {
@@ -667,25 +667,25 @@ nav a:hover {
 .benefits .flex-container .people .img {
   width: 86px;
   height: 63px;
-  background: url("/img/css_sprites.png") -178px -230px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -178px -230px;
 }
 
 .benefits .flex-container .library .img {
   width: 65px;
   height: 57px;
-  background: url("/img/css_sprites.png") -284px -230px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -284px -230px;
 }
 
 .benefits .flex-container .community .img {
   width: 70px;
   height: 70px;
-  background: url("/img/css_sprites.png") -283px -398px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -283px -398px;
 }
 
 .benefits .flex-container .saving .img {
   width: 70px;
   height: 69px;
-  background: url("/img/css_sprites.png") -373px -398px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -373px -398px;
 }
 
 @media screen and (min-width: 35em) {
@@ -709,7 +709,7 @@ nav a:hover {
 }
 
 .benefits2 .usp {
-  list-style-image: url("/img/icon-check.svg");
+  list-style-image: url("https://juliarietveld.github.io/elemento/img/icon-check.svg");
 }
 
 @media screen and (min-width: 61em) {
@@ -727,7 +727,7 @@ nav a:hover {
   .benefits2 .image {
     -ms-flex: 1;
         flex: 1;
-    background-image: url("/img/girl-computer.png");
+    background-image: url("https://juliarietveld.github.io/elemento/img/girl-computer.png");
     background-size: contain;
     height: 530px;
   }
@@ -836,7 +836,7 @@ nav a:hover {
 .pricing .premium-plan .pricing-card-body .img {
   width: 86px;
   height: 63px;
-  background: url("/img/css_sprites.png") -178px -230px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -178px -230px;
   padding-top: 1em;
   -ms-flex-item-align: center;
       align-self: center;

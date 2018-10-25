@@ -1,0 +1,56 @@
+
+/*
+* ------- Intro ----------------------
+*/
+.intro-section .wrap {
+  padding: 12em 1.25em 2em;
+}
+.intro-section .intro-text {
+  line-height: 1.5;
+}
+.intro-section .intro-img {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  > div {
+    align-self: center;
+  }
+}
+.boy {
+  width: 221px; height: 200px;
+  background: url('/img/css_sprites.png') -10px -10px;
+}
+.girl {
+  width: 221px; height: 192px;
+  background: url('/img/css_sprites.png') -251px -10px;
+}
+.connection {
+  width: 148px; height: 148px;
+  background: url('/img/css_sprites.png') -10px -230px;
+}
+@media screen and (min-width: 35em) {
+  .intro-section .wrap {
+    padding: 50% 1.25em 0;
+  }
+  .intro-section .intro-img {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 48em) {
+  .intro-section .wrap {
+    max-width: 32em;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  .intro-section .wrap {
+    padding-top: 35%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .intro-section .wrap {
+    padding-top: 25%;
+  }
+}

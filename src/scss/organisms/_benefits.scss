@@ -1,0 +1,83 @@
+
+/*
+* ------- Benefits ----------------------
+*/
+.benefits .wrap,
+.benefits2 .wrap {
+  padding: 2em 1.25em;
+}
+
+.benefits .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3em 0;
+}
+.benefits .flex-container .item {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.benefits .flex-container .img {
+  background-repeat: no-repeat;
+  padding-top: 1em;
+  align-self: center;
+}
+.benefits .flex-container .people .img {
+  width: 86px; height: 63px;
+  background: url('/img/css_sprites.png') -178px -230px;
+}
+.benefits .flex-container .library .img {
+  width: 65px; height: 57px;
+  background: url('/img/css_sprites.png') -284px -230px;
+}
+.benefits .flex-container .community .img {
+  width: 70px; height: 70px;
+  background: url('/img/css_sprites.png') -283px -398px;
+}
+.benefits .flex-container .saving .img {
+  width: 70px; height: 69px;
+  background: url('/img/css_sprites.png') -373px -398px;
+}
+
+@media screen and (min-width: 35em) {
+  .benefits .intro-text {
+    max-width: 30em;
+    margin: 0 auto;
+  }
+
+  .benefits .flex-container .item {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+    h3 {
+      font-weight: bold;
+    }
+  }
+}
+.benefits2 .usp {
+  list-style-type: none;
+}
+.benefits2 .usp {
+  list-style-image: url('/img/icon-check.svg');
+  //width: 22px; height: 22px;
+  //background: url('/img/css_sprites.png') -369px -230px;
+}
+@media screen and (min-width: 61em) {
+  .benefits2 .wrap {
+    // max-width: 60em;
+    margin: 0 auto;
+  }
+  .benefits2 .flex-container {
+    display: flex;
+  }
+  .benefits2 .text {
+    flex: 1;
+  }
+  .benefits2 .image {
+    flex: 1;
+    background-image: url("/img/girl-computer.png");
+    background-size: contain;
+    height: 530px;
+  }
+}

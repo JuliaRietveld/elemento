@@ -1,0 +1,112 @@
+
+.counters .wrap {
+  padding: 2.5em 1.25em;
+}
+.counters .flex-container {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.counters span {
+  color: #1CABA0;
+  font-size: 46px;
+  font-weight: bold;
+}
+@media screen and (min-width: 48em) {
+  .counters .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/*
+* ------ Pricing ------------
+*/
+.pricing {
+  .wrap {
+    padding: 2.5em 1.25em;
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+  .content-tabs {
+    .content-links {
+      margin: 0 auto;
+      width: fit-content;
+      li {
+        display: inline;
+        padding: 0.5em;
+        border: 1px solid $color-primary;
+      }
+      .content-tab__current {
+        background-color: $color-primary;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+
+
+  .pricing__cards {
+    .pricing-card-body {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding: 2em 0;
+      h3 {
+        font-weght: bold;
+        color: $color-primary;
+        text-align: center;
+      }
+      .features {
+        padding: 1em 3em;
+        li {
+          padding: 1em 0;
+          border-bottom: 1px dotted $iron;
+        }
+        .price {
+          font-size: 3em;
+          color: $color-primary;
+          font-weight: bold;
+          letter-spacing: -0.1em;
+          margin-bottom: 0;
+        }
+        button {
+          background-color: $color-primary;
+          color: white;
+          border-radius: 2em;
+          padding: 0.5em 1em;
+          margin-top: 2em;
+        }
+      }
+      border: 1px solid #1caba0;
+    }
+  }
+
+  .basic-plan .pricing-card-body .img,
+  .advanced-plan .pricing-card-body .img,
+  .premium-plan .pricing-card-body .img {
+    width: 86px; height: 63px;
+    background: url('/img/css_sprites.png') -178px -230px;
+    padding-top: 1em;
+    align-self: center;
+  }
+}
+#widget-id2 {
+  display: none;
+}
+.widget-current {
+  padding-bottom: 20px;
+  margin-top: -10px;
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 61em) {
+  .pricing__cards {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

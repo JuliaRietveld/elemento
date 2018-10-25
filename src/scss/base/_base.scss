@@ -1,0 +1,60 @@
+@viewport { width: device-width; }
+
+
+html {
+  background-color: $color-background;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  &:before,
+  &:after { box-sizing: inherit; }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  color: $color-text;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.3;
+  font-weight: 400;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  background: transparent;
+  color: $primary-color;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-display;
+  font-weight: normal;
+}
+
+.home h2 {
+  font-size: 34px;
+  color: $headings-color;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media screen and (min-width: 61em) {
+  .home h2 {
+    font-size: 54px;
+  }
+}

@@ -1,0 +1,44 @@
+
+/*
+* ------- How it works ----------------------
+*/
+.how-it-works .wrap {
+  padding: 2em 1.25em;
+}
+.how-it-works {
+  text-align: center;
+}
+.how-it-works .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2em;
+}
+.how-it-works .flex-container .item {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.how-it-works .flex-container .img {
+  width: 71px; height: 71px;
+  background-repeat: no-repeat;
+  padding-top: 1em;
+  align-self: center;
+}
+.step-one .img {
+  background: url('/img/css_sprites.png') -10px -398px;
+}
+.step-two .img {
+  background: url('/img/css_sprites.png') -101px -398px;
+}
+.step-three .img {
+  background: url('/img/css_sprites.png') -192px -398px;
+}
+@media screen and (min-width: 48em) {
+  .how-it-works .wrap {
+    padding: 4em 2.5em;
+  }
+  .how-it-works .flex-container .item {
+    margin-right: 2em;
+  }
+}

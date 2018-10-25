@@ -1,0 +1,27 @@
+// Atoms
+//
+// If atoms are the basic building blocks of matter, then the atoms of
+// our interfaces serve as the foundational building blocks that
+// comprise all our user interfaces. Therefore these atoms would include
+// basic HTML tags like form labels, inputs, buttons, and other elements
+// that can’t be broken down any further without ceasing to be functional.
+//
+// @source - http://atomicdesign.bradfrost.com/chapter-2/
+//Elemento primary color
+
+
+button.cta {
+  background-color: $orange;
+  border-radius: 30px;
+  border: 1px solid $orange;
+  padding: 0.5em 4em;
+}
+.cta a {
+  color: white;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 35em) {
+  .cta {
+    padding: 1em 4em;
+  }
+}

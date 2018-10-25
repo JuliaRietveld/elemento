@@ -17,6 +17,10 @@
     display: flex;
     justify-content: space-around;
   }
+  .counters .intro {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 /*
 * ------ Pricing ------------
@@ -53,7 +57,8 @@
       text-align: center;
       display: flex;
       flex-direction: column;
-      padding: 2em 0;
+      padding: 2em;
+      border: 1px solid #1caba0;
       h3 {
         font-weght: bold;
         color: $color-primary;
@@ -65,22 +70,21 @@
           padding: 1em 0;
           border-bottom: 1px dotted $iron;
         }
-        .price {
-          font-size: 3em;
-          color: $color-primary;
-          font-weight: bold;
-          letter-spacing: -0.1em;
-          margin-bottom: 0;
-        }
-        button {
-          background-color: $color-primary;
-          color: white;
-          border-radius: 2em;
-          padding: 0.5em 1em;
-          margin-top: 2em;
-        }
       }
-      border: 1px solid #1caba0;
+      .price {
+        font-size: 3em;
+        color: $color-primary;
+        font-weight: bold;
+        letter-spacing: -0.1em;
+        margin-bottom: 0;
+      }
+      button {
+        background-color: $color-primary;
+        color: white;
+        border-radius: 2em;
+        padding: 0.5em 1em;
+        margin-top: 2em;
+      }
     }
   }
 
@@ -108,5 +112,6 @@
   .pricing__cards {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 }

@@ -611,15 +611,15 @@ nav a:hover {
 }
 
 .step-one .img {
-  background: url("/img/css_sprites.png") -10px -398px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -10px -398px;
 }
 
 .step-two .img {
-  background: url("/img/css_sprites.png") -101px -398px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -101px -398px;
 }
 
 .step-three .img {
-  background: url("/img/css_sprites.png") -192px -398px;
+  background: url("https://juliarietveld.github.io/elemento/img/css_sprites.png") -192px -398px;
 }
 
 @media screen and (min-width: 48em) {

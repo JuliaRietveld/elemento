@@ -646,7 +646,6 @@ nav a:hover {
       flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 3em 0;
 }
 
 .benefits .flex-container .item {
@@ -755,6 +754,10 @@ nav a:hover {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .counters .intro {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 /*
@@ -796,7 +799,7 @@ nav a:hover {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  padding: 2em 0;
+  padding: 2em;
   border: 1px solid #1caba0;
 }
 
@@ -815,7 +818,7 @@ nav a:hover {
   border-bottom: 1px dotted #dadbdf;
 }
 
-.pricing .pricing__cards .pricing-card-body .features .price {
+.pricing .pricing__cards .pricing-card-body .price {
   font-size: 3em;
   color: #15847B;
   font-weight: bold;
@@ -823,7 +826,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.pricing .pricing__cards .pricing-card-body .features button {
+.pricing .pricing__cards .pricing-card-body button {
   background-color: #15847B;
   color: white;
   border-radius: 2em;
@@ -860,6 +863,8 @@ nav a:hover {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
